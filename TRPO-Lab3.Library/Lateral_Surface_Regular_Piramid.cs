@@ -11,6 +11,11 @@ namespace TRPO_Lab3.Library
 
         public static double Lateral_Surface_Regular_Piramid_formula(double p,double a)
         {
+            if (p <= 0 || a <= 0)
+            {
+                throw new ArgumentException("Значение параметров должно быть положительным");
+            }
+
             return 0.5 * p * a;
         }
     }
