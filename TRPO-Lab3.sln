@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRPO-Lab3.ConsoleApp", "TRPO-Lab3.ConsoleApp\TRPO-Lab3.ConsoleApp.csproj", "{2C580335-57E3-4131-84BA-42A285E88B5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TRPO-Lab3.ConsoleApp", "TRPO-Lab3.ConsoleApp\TRPO-Lab3.ConsoleApp.csproj", "{2C580335-57E3-4131-84BA-42A285E88B5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRPO-Lab3.Library", "TRPO-Lab3.Library\TRPO-Lab3.Library.csproj", "{3A45E608-F8C4-43BF-AD06-C517CB057F6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TRPO-Lab3.Library", "TRPO-Lab3.Library\TRPO-Lab3.Library.csproj", "{3A45E608-F8C4-43BF-AD06-C517CB057F6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRPO-Lab3.Tests", "TRPO-Lab3.Tests\TRPO-Lab3.Tests.csproj", "{8910C016-817E-4F91-BBA4-0C62FC4B64E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TRPO-Lab3.Tests", "TRPO-Lab3.Tests\TRPO-Lab3.Tests.csproj", "{8910C016-817E-4F91-BBA4-0C62FC4B64E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{50706F60-1C0D-49A0-BFCD-EDB502CD6D19}"
+	ProjectSection(SolutionItems) = preProject
+		.gitlab-ci.yml = .gitlab-ci.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

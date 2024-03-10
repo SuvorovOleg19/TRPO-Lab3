@@ -19,7 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TRPO-Lab3.ConsoleApp\TRPO-Lab3.ConsoleApp.csproj" />
     <ProjectReference Include="..\TRPO-Lab3.Library\TRPO-Lab3.Library.csproj" />
   </ItemGroup>
 
